@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE music_library SYSTEM "schema.dtd">
+<music_library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="schema.xsd">
+    <!-- ... остальное содержимое ... -->
+    <album>
+        <title>The Dark Side of the Moon</title>
+        <genres>
+            <genre>Progressive Rock</genre>
+            <genre>Art Rock</genre>
+        </genres>
+        <artists>
+            <artist>Pink Floyd</artist>
+        </artists>
+        <compositions>
+            <composition>
+                <name>Speak to Me / Breathe</name>
+                <duration>03:58</duration>
+            </composition>
+            <composition>
+                <name>Time</name>
+                <duration>07:01</duration>
+            </composition>
+            <composition>
+                <name>Money</name>
+                <duration>06:22</duration>
+            </composition>
+        </compositions>
+        <release_date>1973-03-01</release_date>
+        <age_restriction>6+</age_restriction>
+    </album>
+    <album>
+        <title>Thriller</title>
+        <genres>
+            <genre>Pop</genre>
+            <genre>RandB</genre>
+            <genre>Funk</genre>
+        </genres>
+        <artists>
+            <artist>Michael Jackson</artist>
+        </artists>
+        <compositions>
+            <composition>
+                <name>Wanna Be Startin' Somethin'</name>
+                <duration>06:02</duration>
+            </composition>
+            <composition>
+                <name>Thriller</name>
+                <duration>05:57</duration>
+            </composition>
+            <composition>
+                <name>Beat It</name>
+                <duration>04:18</duration>
+            </composition>
+        </compositions>
+        <release_date>1982-11-30</release_date>
+        <age_restriction>0+</age_restriction>
+    </album>
+    <album>
+        <title>Back in Black</title>
+        <genres>
+            <genre>Hard Rock</genre>
+            <genre>Heavy Metal</genre>
+        </genres>
+        <artists>
+            <artist>AC/DC</artist>
+        </artists>
+        <compositions>
+            <composition>
+                <name>Hells Bells</name>
+                <duration>05:12</duration>
+            </composition>
+            <composition>
+                <name>Shoot to Thrill</name>
+                <duration>05:17</duration>
+            </composition>
+            <composition>
+                <name>Back in Black</name>
+                <duration>04:15</duration>
+            </composition>
+            <composition>
+                <name>You Shook Me All Night Long</name>
+                <duration>03:30</duration>
+            </composition>
+        </compositions>
+        <release_date>1980-07-25</release_date>
+        <age_restriction>12+</age_restriction>
+    </album>
+    <album>
+        <title>Kind of Blue</title>
+        <genres>
+            <genre>Jazz</genre>
+            <genre>Modal Jazz</genre>
+        </genres>
+        <artists>
+            <artist>Miles Davis</artist>
+        </artists>
+        <compositions>
+            <composition>
+                <name>So What</name>
+                <duration>09:22</duration>
+            </composition>
+            <composition>
+                <name>Freddie Freeloader</name>
+                <duration>09:46</duration>
+            </composition>
+            <composition>
+                <name>Blue in Green</name>
+                <duration>05:37</duration>
+            </composition>
+        </compositions>
+        <release_date>1959-08-17</release_date>
+        <age_restriction>0+</age_restriction>
+    </album>
+    <album>
+        <title>A Night at the Opera</title>
+        <genres>
+            <genre>Rock</genre>
+            <genre>Progressive Rock</genre>
+        </genres>
+        <artists>
+            <artist>Queen</artist>
+        </artists>
+        <compositions>
+            <composition>
+                <name>Bohemian Rhapsody</name>
+                <duration>05:55</duration>
+            </composition>
+            <composition>
+                <name>Love of My Life</name>
+                <duration>03:39</duration>
+            </composition>
+            <composition>
+                <name>You're My Best Friend</name>
+                <duration>02:52</duration>
+            </composition>
+        </compositions>
+        <release_date>1975-11-21</release_date>
+        <age_restriction>6+</age_restriction>
+    </album>
+</music_library>

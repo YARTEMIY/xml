@@ -1,0 +1,63 @@
+[
+  {
+    "title": "The Dark Side of the Moon",
+    "genres": ["Progressive Rock", "Art Rock"],
+    "artists": ["Pink Floyd"],
+    "compositions": [
+      { "name": "Speak to Me / Breathe", "duration_seconds": 238 },
+      { "name": "Time", "duration_seconds": 421 },
+      { "name": "Money", "duration_seconds": 382 }
+    ],
+    "release_date": "1973-03-01",
+    "age_restriction": "6+"
+  },
+  {
+    "title": "Thriller",
+    "genres": ["Pop", "R&B", "Funk"],
+    "artists": ["Michael Jackson"],
+    "compositions": [
+      { "name": "Wanna Be Startin' Somethin'", "duration_seconds": 362 },
+      { "name": "Thriller", "duration_seconds": 357 },
+      { "name": "Beat It", "duration_seconds": 258 }
+    ],
+    "release_date": "1982-11-30",
+    "age_restriction": "0+"
+  },
+  {
+    "title": "Back in Black",
+    "genres": ["Hard Rock", "Heavy Metal"],
+    "artists": ["AC/DC"],
+    "compositions": [
+      { "name": "Hells Bells", "duration_seconds": 312 },
+      { "name": "Shoot to Thrill", "duration_seconds": 317 },
+      { "name": "Back in Black", "duration_seconds": 255 },
+      { "name": "You Shook Me All Night Long", "duration_seconds": 210 }
+    ],
+    "release_date": "1980-07-25",
+    "age_restriction": "12+"
+  },
+  {
+    "title": "Kind of Blue",
+    "genres": ["Jazz", "Modal Jazz"],
+    "artists": ["Miles Davis"],
+    "compositions": [
+      { "name": "So What", "duration_seconds": 562 },
+      { "name": "Freddie Freeloader", "duration_seconds": 586 },
+      { "name": "Blue in Green", "duration_seconds": 337 }
+    ],
+    "release_date": "1959-08-17",
+    "age_restriction": "0+"
+  },
+  {
+    "title": "A Night at the Opera",
+    "genres": ["Rock", "Progressive Rock"],
+    "artists": ["Queen"],
+    "compositions": [
+      { "name": "Bohemian Rhapsody", "duration_seconds": 355 },
+      { "name": "Love of My Life", "duration_seconds": 219 },
+      { "name": "You're My Best Friend", "duration_seconds": 172 }
+    ],
+    "release_date": "1975-11-21",
+    "age_restriction": "6+"
+  }
+]

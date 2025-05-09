@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="music_library">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="album" type="albumType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="albumType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="genres">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="genre" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="artists">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="artist" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="compositions">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="composition" type="compositionType" minOccurs="3" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="release_date" type="xs:date"/>
+            <xs:element name="age_restriction" type="ageRestrictionType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="compositionType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="duration" type="durationType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="durationType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{2}:\d{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ageRestrictionType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="0+"/>
+            <xs:enumeration value="6+"/>
+            <xs:enumeration value="12+"/>
+            <xs:enumeration value="16+"/>
+            <xs:enumeration value="18+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

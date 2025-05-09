@@ -1,0 +1,23 @@
+<!ELEMENT music_library (album+)>
+<!ATTLIST music_library
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+
+<!ELEMENT album (title, genres, artists, compositions, release_date, age_restriction)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT genres (genre+)>
+<!ELEMENT genre (#PCDATA)>
+
+<!ELEMENT artists (artist+)>
+<!ELEMENT artist (#PCDATA)>
+
+<!ELEMENT compositions (composition+)>
+<!ELEMENT composition (name, duration)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>  <!-- Можно добавить pattern для формата MM:SS, но DTD не поддерживает сложные типы данных напрямую -->
+
+<!ELEMENT release_date (#PCDATA)> <!-- Аналогично, YYYY-MM-DD -->
+<!ELEMENT age_restriction (#PCDATA)> <!-- Можно использовать (0+|6+|12+|16+|18+) если парсер DTD поддерживает такую нотацию для #PCDATA,
+но обычно это для атрибутов -->

@@ -1,0 +1,49 @@
+МУЗЫКАЛЬНАЯ БИБЛИОТЕКА
+========================
+
+Альбом: The Dark Side of the Moon (1973-03-01, 6+)
+Исполнители: Pink Floyd
+Жанры: Progressive Rock, Art Rock
+Композиции:
+  - Speak to Me / Breathe (03:58)
+  - Time (07:01)
+  - Money (06:22)
+------------------------
+
+Альбом: Thriller (1982-11-30, 0+)
+Исполнители: Michael Jackson
+Жанры: Pop, RandB, Funk
+Композиции:
+  - Wanna Be Startin' Somethin' (06:02)
+  - Thriller (05:57)
+  - Beat It (04:18)
+------------------------
+
+Альбом: Back in Black (1980-07-25, 12+)
+Исполнители: AC/DC
+Жанры: Hard Rock, Heavy Metal
+Композиции:
+  - Hells Bells (05:12)
+  - Shoot to Thrill (05:17)
+  - Back in Black (04:15)
+  - You Shook Me All Night Long (03:30)
+------------------------
+
+Альбом: Kind of Blue (1959-08-17, 0+)
+Исполнители: Miles Davis
+Жанры: Jazz, Modal Jazz
+Композиции:
+  - So What (09:22)
+  - Freddie Freeloader (09:46)
+  - Blue in Green (05:37)
+------------------------
+
+Альбом: A Night at the Opera (1975-11-21, 6+)
+Исполнители: Queen
+Жанры: Rock, Progressive Rock
+Композиции:
+  - Bohemian Rhapsody (05:55)
+  - Love of My Life (03:39)
+  - You're My Best Friend (02:52)
+------------------------
+
