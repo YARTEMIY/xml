@@ -186,9 +186,9 @@ if __name__ == "__main__":
         # Другой вариант для (e)
         # query_e2 = "sum(//album[artists/artist='Pink Floyd']/count(compositions/composition))"
         # execute_xpath_query(xml_doc, query_e2, "Собственный запрос: общее количество композиций Pink Floyd")
-        query_e2 = "count(//album[artists/artist='Pink Floyd']/compositions/composition)"
-        execute_xpath_query(
-            xml_doc, query_e2, "Собственный запрос: общее количество композиций Pink Floyd (используя count)")
+        # query_e2 = "count(//album[artists/artist='Pink Floyd']/compositions/composition)"
+        # execute_xpath_query(
+        #     xml_doc, query_e2, "Собственный запрос: общее количество композиций Pink Floyd (используя count)")
 
     except etree.XMLSyntaxError as e:
         print(f"Ошибка парсинга XML: {e}")
