@@ -2,7 +2,6 @@
 <!DOCTYPE music_library SYSTEM "schema.dtd">
 <music_library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="schema.xsd">
-    <!-- ... остальное содержимое ... -->
     <album>
         <title>The Dark Side of the Moon</title>
         <genres>
@@ -19,11 +18,13 @@
             </composition>
             <composition>
                 <name>Time</name>
-                <duration>07:01</duration>
+                <!-- 07:01 -->
+                <duration>04:01</duration>
             </composition>
             <composition>
                 <name>Money</name>
-                <duration>06:22</duration>
+                <!-- 06:22 -->
+                <duration>04:22</duration>
             </composition>
         </compositions>
         <release_date>1973-03-01</release_date>

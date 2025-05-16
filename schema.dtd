@@ -16,8 +16,7 @@
 <!ELEMENT compositions (composition+)>
 <!ELEMENT composition (name, duration)>
 <!ELEMENT name (#PCDATA)>
-<!ELEMENT duration (#PCDATA)>  <!-- Можно добавить pattern для формата MM:SS, но DTD не поддерживает сложные типы данных напрямую -->
+<!ELEMENT duration (#PCDATA)>
 
-<!ELEMENT release_date (#PCDATA)> <!-- Аналогично, YYYY-MM-DD -->
-<!ELEMENT age_restriction (#PCDATA)> <!-- Можно использовать (0+|6+|12+|16+|18+) если парсер DTD поддерживает такую нотацию для #PCDATA,
-но обычно это для атрибутов -->
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT age_restriction (#PCDATA)>

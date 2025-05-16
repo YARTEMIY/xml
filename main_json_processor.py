@@ -74,7 +74,7 @@ def query_albums_with_long_tracks(data, min_duration_seconds=300):
         for comp in album.get('compositions', []):
             if comp.get('duration_seconds', 0) > min_duration_seconds:
                 results.append(album)
-                break  # Достаточно одной такой композиции в альбоме
+                break
     if not results:
         print("Альбомы не найдены.")
     for album in results:
@@ -139,7 +139,7 @@ if __name__ == "__main__":
         # b)
         query_genres_by_artist(music_data, "Queen")
         # c)
-        query_albums_with_long_tracks(music_data, 300)  # 300 секунд = 5 минут
+        query_albums_with_long_tracks(music_data, 300)
         # d)
         generate_json_random_playlist(music_data, num_tracks=3)
         # e)
